@@ -8,6 +8,7 @@ public class UserMain {
 		UserDao dao = new UserDao();
 		Scanner scn = new Scanner(System.in);
 		int menu = 0;
+		BoardProc proc = new BoardProc();
 		
 		while(true) {
 			System.out.println("1.추가 2.조회 3.수정 4.삭제 5.목록 6.종료");

@@ -2,7 +2,7 @@ package com.yedam.board;
 import java.sql.*;
 import java.util.*;
 
-public class BrdFunc {
+public class BoardDao {
 	
 	Connection conn;
 	PreparedStatement psmt;

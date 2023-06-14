@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class BrdMain {
 	public static void main(String[] args) {
-		BrdFunc brd = new BrdFunc();
+		BoardDao brd = new BoardDao();
 		Scanner scn = new Scanner(System.in);
 		int menu = 0;
 		
